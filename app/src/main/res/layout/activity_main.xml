@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#3b5998"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingTop="100dp"
+    android:paddingBottom="20dp"
+    tools:context="com.example.android.exampleproject.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_fb"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+
+        />
+    
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white"
+        android:layout_gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:text=""
+        android:hint="Email or Phone"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:text=""
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:hint="Password"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="LOG IN"
+        android:textColorHint="@android:color/white"
+        android:background="#8b9dc3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up for Facebook"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:padding="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
